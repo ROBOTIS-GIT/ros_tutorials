@@ -2,7 +2,7 @@
 <package>
   <name>ros_tutorials_topic</name>
   <version>0.1.0</version>
-  <description>The ros_tutorials_topic package</description>
+  <description>ROS turtorial package to learn the topic</description>
   <license>Apache License 2.0</license>
   <author email="pyo@robotis.com">Yoonseok Pyo</author>
   <maintainer email="pyo@robotis.com">Yoonseok Pyo</maintainer>
