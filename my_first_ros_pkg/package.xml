@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>my_first_ros_pkg</name>
+  <version>0.0.1</version>
+  <description>The my_first_ros_pkg package</description>
+  <maintainer email="pyo@robotis.com">Yoonseok Pyo</maintainer>
+  <license>Apache License 2.0</license>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/ros_turtorials/issues</url>
+  <url type="repository">https://github.com/oroca/oroca_ros_tutorials.git</url>
+  <url type="website">http://robotis.com</url>
+  <author email="pyo@robotis.com">Yoonseok Pyo</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <export></export>
+</package>
