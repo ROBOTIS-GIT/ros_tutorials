@@ -1,0 +1,10 @@
+<launch>
+  <group ns="ns1">
+    <node pkg="ros_tutorials_topic" type="topic_publisher" name="topic_publisher"/>
+    <node pkg="ros_tutorials_topic" type="topic_subscriber" name="topic_subscriber"/>
+  </group>
+  <group ns="ns2">
+    <node pkg="ros_tutorials_topic" type="topic_publisher" name="topic_publisher"/>
+    <node pkg="ros_tutorials_topic" type="topic_subscriber" name="topic_subscriber"/>
+  </group>
+</launch>
