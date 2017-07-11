@@ -13,10 +13,10 @@ catkin_package(
 
 include_directories(${catkin_INCLUDE_DIRS})
 
-add_executable(service_server_with_prameter src/service_server.cpp)
-add_dependencies(service_server_with_prameter ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(service_server_with_prameter ${catkin_LIBRARIES})
+add_executable(service_server_with_parameter src/service_server.cpp)
+add_dependencies(service_server_with_parameter ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(service_server_with_parameter ${catkin_LIBRARIES})
 
-add_executable(service_client_with_prameter src/service_client.cpp)
-add_dependencies(service_client_with_prameter ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(service_client_with_prameter ${catkin_LIBRARIES})
+add_executable(service_client_with_parameter src/service_client.cpp)
+add_dependencies(service_client_with_parameter ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(service_client_with_parameter ${catkin_LIBRARIES})
