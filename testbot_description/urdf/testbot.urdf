@@ -9,6 +9,7 @@
   </material>
 
   <link name="base"/>
+
   <joint name="fixed" type="fixed">
     <parent link="base"/>
     <child link="link1"/>
